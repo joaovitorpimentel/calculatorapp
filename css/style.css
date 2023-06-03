@@ -1,0 +1,36 @@
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+* {
+  font-family: "League Spartan", sans-serif;
+  font-weight: 700;
+  margin: 0;
+  padding: 0;
+  outline: none;
+  box-sizing: inherit;
+  font-size: clamp(2.6rem, 3vw, 3.2rem);
+}
+body {
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
+  background-color: var(--main-bg);
+}
+.container {
+  width: clamp(30rem, 90%, 55rem);
+  margin-inline: auto;
+}
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.flex-col{
+  flex-direction: column;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: clamp(1.5rem, 1.8vw, 2rem);
+}
