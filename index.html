@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Frontend Mentor | Calculator app</title>
+  </head>
+  <body class="active-1">
+    <main class="container">
+      <!-- HEADER THEME -->
+      <div class="header-theme flex">
+        <h3>calc</h3>
+        <div class="theme-box flex">
+          <p>THEME</p>
+          <div class="box flex flex-col">
+            <div class="num-toggle flex">
+              <p class="num num-1">1</p>
+              <p class="num num-2">2</p>
+              <p class="num num-3">3</p>
+            </div>
+            <div class="toggle">
+              <div class="circle"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- FORM SECTION -->
+      <form id="form">
+        <input type="text" name="text" id="input-num" placeholder="0" />
+      </form>
+      <div class="key-container grid">
+        <button>7</button>
+        <button>8</button>
+        <button>9</button>
+        <button class="delete">DEL</button>
+        <button>4</button>
+        <button>5</button>
+        <button>6</button>
+        <button>+</button>
+        <button>1</button>
+        <button>2</button>
+        <button>3</button>
+        <button>-</button>
+        <button>.</button>
+        <button>0</button>
+        <button>/</button>
+        <button>*</button>
+        <button class="reset">RESET</button>
+        <button class="equal">=</button>
+      </div>
+    </main>
+    <script src="./script.js"></script>
+  </body>
+</html>
