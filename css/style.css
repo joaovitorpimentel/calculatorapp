@@ -1,6 +1,10 @@
 
 .active-1 {
   --main-bg: hsl(222, 26%, 31%);
+  --key-bg-gray: hsl(225, 21%, 49%);
+
+  --txt-dark-desaturated: hsl(221, 14%, 31%);
+  --white: hsl(0, 0%, 100%);
 }
 
 
