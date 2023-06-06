@@ -1,5 +1,3 @@
-
-
 .active-1 {
   /* #Tema 1 */
 
@@ -33,6 +31,29 @@
   --white: hsl(0, 0%, 100%);
 }
 
+
+.active-2 {
+  /* #Tema 2*/
+
+  /* ### Plano de fundo */
+  /* (Cor de fundo principal) */
+  --main-bg: hsl(0, 0%, 90%);
+  /* (Cor de fundo do teclado */
+  --toggle-keypad-bg: hsl(0, 5%, 81%);
+  /* (Cor de fundo da tela) */
+  --screen-bg: hsl(0, 0%, 93%);
+
+  /* ### Teclas */
+   /*  (Cor de fundo dos numeros) */
+  --key-bg-gray: hsl(185, 42%, 37%);
+    /* (Sombra da tecla) */
+    --key-shadow-gray: hsl(185, 58%, 25%);
+    /* (Cor da tecla de igual) */
+    --key-bg-red: hsl(25, 98%, 40%);
+    /*  (Sombra da tecla de igual) */
+    --key-bg-orange: hsl(45, 7%, 89%);
+    --key-shadow-orange: hsl(35, 11%, 61%);
+}
 
 html {
   box-sizing: border-box;
