@@ -2,22 +2,31 @@
   /* #Tema 1 */
 
   /* #### Plano de fundo */
+
   /* (Cor de fundo principal) */
   --main-bg: hsl(222, 26%, 31%);
+
   /* (Cor de fundo do teclado) */
   --toggle-keypad-bg: hsl(223, 31%, 20%);
+
   /* (Cor de fundo da tela) */
   --screen-bg: hsl(224, 36%, 15%);
+
+
 
   /* ### Teclas */
   /*  (Cor de fundo dos numeros) */
   --key-bg-gray: hsl(225, 21%, 49%);
+
   /* (Sombra da tecla) */
   --key-shadow-gray: hsl(224, 28%, 35%);
+
   /* (Cor da tecla de igual) */
   --key-bg-red: hsl(6, 63%, 50%);
+
   /*  (Sombra da tecla de igual) */
   --key-shadow-red: hsl(6, 70%, 34%);
+
   /*  (Teclas cor de fundo) */
   --key-bg-orange: hsl(30, 25%, 89%);
   --key-shadow-orange: hsl(28, 16%, 65%);
@@ -25,34 +34,91 @@
   --key-hover-2: hsl(225, 21%, 59%);
   --key-hover-3: hsl(6, 63%, 60%);
   
-  /* #Cor do texto texto */
+  /* #Cor do texto */
 
   --txt-dark-desaturated: hsl(221, 14%, 31%);
   --white: hsl(0, 0%, 100%);
 }
 
 
+
 .active-2 {
   /* #Tema 2*/
 
   /* ### Plano de fundo */
+
   /* (Cor de fundo principal) */
   --main-bg: hsl(0, 0%, 90%);
-  /* (Cor de fundo do teclado */
+
+  /* (Cor de fundo do teclado) */
   --toggle-keypad-bg: hsl(0, 5%, 81%);
+
   /* (Cor de fundo da tela) */
   --screen-bg: hsl(0, 0%, 93%);
 
-  /* ### Teclas */
-   /*  (Cor de fundo dos numeros) */
+
+
+  /* #### Teclas */
+  /*  (Cor de fundo dos numeros) */
   --key-bg-gray: hsl(185, 42%, 37%);
-    /* (Sombra da tecla) */
-    --key-shadow-gray: hsl(185, 58%, 25%);
-    /* (Cor da tecla de igual) */
-    --key-bg-red: hsl(25, 98%, 40%);
-    /*  (Sombra da tecla de igual) */
-    --key-bg-orange: hsl(45, 7%, 89%);
-    --key-shadow-orange: hsl(35, 11%, 61%);
+
+  /* (Sombra da tecla) */
+  --key-shadow-gray: hsl(185, 58%, 25%);
+
+  /* (Cor da tecla de igual) */
+  --key-bg-red: hsl(25, 98%, 40%);
+
+  /*  (Sombra da tecla de igual) */
+  --key-shadow-red: hsl(25, 99%, 27%);
+
+  /*  (Teclas cor de fundo) */
+  --key-bg-orange: hsl(45, 7%, 89%);
+  --key-shadow-orange: hsl(35, 11%, 61%);
+  --key-hover-1: hsl(0, 0%, 100%);
+  --key-hover-3: hsl(25, 98%, 50%);
+
+  /* # Cor do texto  */
+  --txt-dark-desaturated: hsl(60, 10%, 19%);
+  --white: hsl(0, 0%, 100%);
+}
+
+
+.active-3 {
+  /* # Tema 3*/
+
+  /* ### Plano de fundo */
+  --main-bg: hsl(268, 75%, 9%);
+
+  /* (Cor de fundo do teclado) */
+  --toggle-keypad-bg: hsl(268, 71%, 12%);
+
+  /* (Cor de fundo da tela) */
+  --screen-bg: hsl(268, 71%, 12%);
+
+
+  /*  #### Teclas  */
+  /* (Cor de fundo dos numeros) */
+  --key-bg-gray: hsl(281, 89%, 26%);
+
+  /* (Sombra da tecla) */
+  --key-shadow-gray: hsl(285, 91%, 52%);
+
+  /* (Cor da tecla de igual) */
+  --key-bg-red: hsl(176, 100%, 44%);
+
+  /*  (Sombra da tecla de igual) */
+  --key-shadow-red: hsl(177, 92%, 70%);
+  
+  /*  (Teclas cor de fundo) */
+  --key-bg-orange: hsl(268, 47%, 21%);
+  --key-shadow-orange: hsl(290, 70%, 36%);
+  --key-hover-1: hsl(290, 70%, 21%);
+  --key-hover-3: hsl(176, 100%,50%);
+
+    /* # Cor do texto */
+    --txt-light-yellow: hsl(52, 100%, 62%);
+    --txt-dark-desaturated: hsl(198, 20%, 13%);
+    --white: hsl(0, 0%, 100%);
 }
 
 html {
