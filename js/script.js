@@ -6,7 +6,8 @@ const circle = document.querySelector('.circle')
 const inputNum = document.getElementById('input-num');
 const button = document.querySelectorAll('button');
 
-//ALTERAR TEMA DA CALCULADORA
+
+
 const toggle = (num,val,percent,elbody,elcircle)=>{
   if(num.textContent === val){
     elbody.classList.add(`active-${val}`)
