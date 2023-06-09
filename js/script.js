@@ -1,6 +1,10 @@
+'use strict';
+
 const body = document.querySelector('body');
 const num = document.querySelectorAll('.num');
 const circle = document.querySelector('.circle')
+const inputNum = document.getElementById('input-num');
+const button = document.querySelectorAll('button');
 
 //ALTERAR TEMA DA CALCULADORA
 const toggle = (num,val,percent,elbody,elcircle)=>{
@@ -24,5 +28,27 @@ num.forEach(number =>{
   })
 })
 
+
+
+button.forEach(btn =>{
+  btn.addEventListener('click', (e)=>{
+    e.preventDefault()
+    const btnVal = btn.textContent;
+    if(btnVal === 'RESET'){
+      
+       inputNum.value = '';
+    }
+    else if(btnVal === '='){
+      inputNum.value = eval(inputNum.value);
+    }
+    else if(btnVal === 'DEL'){
+      inputNum.value = inputNum.value.substr(0,inputNum.value.length -1 )
+    }
+    else{
+      inputNum.value += btnVal;
+    }
+    
+  });
+});
 
 
